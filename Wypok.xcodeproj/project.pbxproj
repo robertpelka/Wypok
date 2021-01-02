@@ -13,6 +13,8 @@
 		489BED0C25A11C0A003DE60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489BED0B25A11C0A003DE60C /* Preview Assets.xcassets */; };
 		489BED1725A11C0B003DE60C /* WypokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED1625A11C0B003DE60C /* WypokTests.swift */; };
 		489BED2225A11C0B003DE60C /* WypokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED2125A11C0B003DE60C /* WypokUITests.swift */; };
+		489BED3625A11EAA003DE60C /* HitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED3525A11EAA003DE60C /* HitData.swift */; };
+		489BED3C25A1202A003DE60C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED3B25A1202A003DE60C /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		489BED1D25A11C0B003DE60C /* WypokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WypokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489BED2125A11C0B003DE60C /* WypokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WypokUITests.swift; sourceTree = "<group>"; };
 		489BED2325A11C0B003DE60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489BED3525A11EAA003DE60C /* HitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitData.swift; sourceTree = "<group>"; };
+		489BED3B25A1202A003DE60C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				489BED0425A11C06003DE60C /* WypokApp.swift */,
-				489BED0625A11C06003DE60C /* ContentView.swift */,
+				489BED4025A12B74003DE60C /* Views */,
 				489BED0825A11C0A003DE60C /* Assets.xcassets */,
 				489BED0D25A11C0A003DE60C /* Info.plist */,
 				489BED0A25A11C0A003DE60C /* Preview Content */,
+				489BED3A25A11FA0003DE60C /* Models */,
 			);
 			path = Wypok;
 			sourceTree = "<group>";
@@ -128,6 +133,23 @@
 				489BED2325A11C0B003DE60C /* Info.plist */,
 			);
 			path = WypokUITests;
+			sourceTree = "<group>";
+		};
+		489BED3A25A11FA0003DE60C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				489BED3525A11EAA003DE60C /* HitData.swift */,
+				489BED3B25A1202A003DE60C /* NetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		489BED4025A12B74003DE60C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				489BED0625A11C06003DE60C /* ContentView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489BED3C25A1202A003DE60C /* NetworkManager.swift in Sources */,
+				489BED3625A11EAA003DE60C /* HitData.swift in Sources */,
 				489BED0725A11C06003DE60C /* ContentView.swift in Sources */,
 				489BED0525A11C06003DE60C /* WypokApp.swift in Sources */,
 			);
