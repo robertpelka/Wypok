@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489BED0525A11C06003DE60C /* WypokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED0425A11C06003DE60C /* WypokApp.swift */; };
+		489BED0725A11C06003DE60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED0625A11C06003DE60C /* ContentView.swift */; };
+		489BED0925A11C0A003DE60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489BED0825A11C0A003DE60C /* Assets.xcassets */; };
+		489BED0C25A11C0A003DE60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489BED0B25A11C0A003DE60C /* Preview Assets.xcassets */; };
+		489BED1725A11C0B003DE60C /* WypokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED1625A11C0B003DE60C /* WypokTests.swift */; };
+		489BED2225A11C0B003DE60C /* WypokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED2125A11C0B003DE60C /* WypokUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		489BED1325A11C0B003DE60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489BECF925A11C06003DE60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489BED0025A11C06003DE60C;
+			remoteInfo = Wypok;
+		};
+		489BED1E25A11C0B003DE60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489BECF925A11C06003DE60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489BED0025A11C06003DE60C;
+			remoteInfo = Wypok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		489BED0125A11C06003DE60C /* Wypok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wypok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		489BED0425A11C06003DE60C /* WypokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WypokApp.swift; sourceTree = "<group>"; };
+		489BED0625A11C06003DE60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		489BED0825A11C0A003DE60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		489BED0B25A11C0A003DE60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		489BED0D25A11C0A003DE60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489BED1225A11C0B003DE60C /* WypokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WypokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489BED1625A11C0B003DE60C /* WypokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WypokTests.swift; sourceTree = "<group>"; };
+		489BED1825A11C0B003DE60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489BED1D25A11C0B003DE60C /* WypokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WypokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		489BED2125A11C0B003DE60C /* WypokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WypokUITests.swift; sourceTree = "<group>"; };
+		489BED2325A11C0B003DE60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489BECFE25A11C06003DE60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489BED0F25A11C0B003DE60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489BED1A25A11C0B003DE60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489BECF825A11C06003DE60C = {
+			isa = PBXGroup;
+			children = (
+				489BED0325A11C06003DE60C /* Wypok */,
+				489BED1525A11C0B003DE60C /* WypokTests */,
+				489BED2025A11C0B003DE60C /* WypokUITests */,
+				489BED0225A11C06003DE60C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		489BED0225A11C06003DE60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489BED0125A11C06003DE60C /* Wypok.app */,
+				489BED1225A11C0B003DE60C /* WypokTests.xctest */,
+				489BED1D25A11C0B003DE60C /* WypokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489BED0325A11C06003DE60C /* Wypok */ = {
+			isa = PBXGroup;
+			children = (
+				489BED0425A11C06003DE60C /* WypokApp.swift */,
+				489BED0625A11C06003DE60C /* ContentView.swift */,
+				489BED0825A11C0A003DE60C /* Assets.xcassets */,
+				489BED0D25A11C0A003DE60C /* Info.plist */,
+				489BED0A25A11C0A003DE60C /* Preview Content */,
+			);
+			path = Wypok;
+			sourceTree = "<group>";
+		};
+		489BED0A25A11C0A003DE60C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				489BED0B25A11C0A003DE60C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		489BED1525A11C0B003DE60C /* WypokTests */ = {
+			isa = PBXGroup;
+			children = (
+				489BED1625A11C0B003DE60C /* WypokTests.swift */,
+				489BED1825A11C0B003DE60C /* Info.plist */,
+			);
+			path = WypokTests;
+			sourceTree = "<group>";
+		};
+		489BED2025A11C0B003DE60C /* WypokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				489BED2125A11C0B003DE60C /* WypokUITests.swift */,
+				489BED2325A11C0B003DE60C /* Info.plist */,
+			);
+			path = WypokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489BED0025A11C06003DE60C /* Wypok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489BED2625A11C0B003DE60C /* Build configuration list for PBXNativeTarget "Wypok" */;
+			buildPhases = (
+				489BECFD25A11C06003DE60C /* Sources */,
+				489BECFE25A11C06003DE60C /* Frameworks */,
+				489BECFF25A11C06003DE60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wypok;
+			productName = Wypok;
+			productReference = 489BED0125A11C06003DE60C /* Wypok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		489BED1125A11C0B003DE60C /* WypokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489BED2925A11C0B003DE60C /* Build configuration list for PBXNativeTarget "WypokTests" */;
+			buildPhases = (
+				489BED0E25A11C0B003DE60C /* Sources */,
+				489BED0F25A11C0B003DE60C /* Frameworks */,
+				489BED1025A11C0B003DE60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489BED1425A11C0B003DE60C /* PBXTargetDependency */,
+			);
+			name = WypokTests;
+			productName = WypokTests;
+			productReference = 489BED1225A11C0B003DE60C /* WypokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		489BED1C25A11C0B003DE60C /* WypokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489BED2C25A11C0B003DE60C /* Build configuration list for PBXNativeTarget "WypokUITests" */;
+			buildPhases = (
+				489BED1925A11C0B003DE60C /* Sources */,
+				489BED1A25A11C0B003DE60C /* Frameworks */,
+				489BED1B25A11C0B003DE60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489BED1F25A11C0B003DE60C /* PBXTargetDependency */,
+			);
+			name = WypokUITests;
+			productName = WypokUITests;
+			productReference = 489BED1D25A11C0B003DE60C /* WypokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489BECF925A11C06003DE60C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					489BED0025A11C06003DE60C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					489BED1125A11C0B003DE60C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 489BED0025A11C06003DE60C;
+					};
+					489BED1C25A11C0B003DE60C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 489BED0025A11C06003DE60C;
+					};
+				};
+			};
+			buildConfigurationList = 489BECFC25A11C06003DE60C /* Build configuration list for PBXProject "Wypok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489BECF825A11C06003DE60C;
+			productRefGroup = 489BED0225A11C06003DE60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489BED0025A11C06003DE60C /* Wypok */,
+				489BED1125A11C0B003DE60C /* WypokTests */,
+				489BED1C25A11C0B003DE60C /* WypokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489BECFF25A11C06003DE60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489BED0C25A11C0A003DE60C /* Preview Assets.xcassets in Resources */,
+				489BED0925A11C0A003DE60C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489BED1025A11C0B003DE60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489BED1B25A11C0B003DE60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489BECFD25A11C06003DE60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489BED0725A11C06003DE60C /* ContentView.swift in Sources */,
+				489BED0525A11C06003DE60C /* WypokApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489BED0E25A11C0B003DE60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489BED1725A11C0B003DE60C /* WypokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489BED1925A11C0B003DE60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489BED2225A11C0B003DE60C /* WypokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		489BED1425A11C0B003DE60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489BED0025A11C06003DE60C /* Wypok */;
+			targetProxy = 489BED1325A11C0B003DE60C /* PBXContainerItemProxy */;
+		};
+		489BED1F25A11C0B003DE60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489BED0025A11C06003DE60C /* Wypok */;
+			targetProxy = 489BED1E25A11C0B003DE60C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		489BED2425A11C0B003DE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		489BED2525A11C0B003DE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489BED2725A11C0B003DE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Wypok/Preview Content\"";
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wypok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.Wypok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		489BED2825A11C0B003DE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Wypok/Preview Content\"";
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wypok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.Wypok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		489BED2A25A11C0B003DE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				INFOPLIST_FILE = WypokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.WypokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wypok.app/Wypok";
+			};
+			name = Debug;
+		};
+		489BED2B25A11C0B003DE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				INFOPLIST_FILE = WypokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.WypokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wypok.app/Wypok";
+			};
+			name = Release;
+		};
+		489BED2D25A11C0B003DE60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				INFOPLIST_FILE = WypokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.WypokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wypok;
+			};
+			name = Debug;
+		};
+		489BED2E25A11C0B003DE60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YKL7R8YMPX;
+				INFOPLIST_FILE = WypokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertpelka.WypokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wypok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489BECFC25A11C06003DE60C /* Build configuration list for PBXProject "Wypok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489BED2425A11C0B003DE60C /* Debug */,
+				489BED2525A11C0B003DE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489BED2625A11C0B003DE60C /* Build configuration list for PBXNativeTarget "Wypok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489BED2725A11C0B003DE60C /* Debug */,
+				489BED2825A11C0B003DE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489BED2925A11C0B003DE60C /* Build configuration list for PBXNativeTarget "WypokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489BED2A25A11C0B003DE60C /* Debug */,
+				489BED2B25A11C0B003DE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489BED2C25A11C0B003DE60C /* Build configuration list for PBXNativeTarget "WypokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489BED2D25A11C0B003DE60C /* Debug */,
+				489BED2E25A11C0B003DE60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489BECF925A11C06003DE60C /* Project object */;
+}
