@@ -16,4 +16,5 @@ struct Hit: Decodable, Identifiable {
     let title: String
     let source_url: String
     let vote_count: Int
+    let preview: String?
 }
