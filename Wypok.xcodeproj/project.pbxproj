@@ -15,6 +15,8 @@
 		489BED2225A11C0B003DE60C /* WypokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED2125A11C0B003DE60C /* WypokUITests.swift */; };
 		489BED3625A11EAA003DE60C /* HitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED3525A11EAA003DE60C /* HitData.swift */; };
 		489BED3C25A1202A003DE60C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489BED3B25A1202A003DE60C /* NetworkManager.swift */; };
+		48AEF9AB25A4F563001A0E48 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEF9AA25A4F563001A0E48 /* WebView.swift */; };
+		48AEF9B825A4F746001A0E48 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AEF9B725A4F746001A0E48 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		489BED2325A11C0B003DE60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		489BED3525A11EAA003DE60C /* HitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitData.swift; sourceTree = "<group>"; };
 		489BED3B25A1202A003DE60C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		48AEF9AA25A4F563001A0E48 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		48AEF9B725A4F746001A0E48 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				489BED0625A11C06003DE60C /* ContentView.swift */,
+				48AEF9AA25A4F563001A0E48 /* WebView.swift */,
+				48AEF9B725A4F746001A0E48 /* DetailView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				489BED3C25A1202A003DE60C /* NetworkManager.swift in Sources */,
+				48AEF9B825A4F746001A0E48 /* DetailView.swift in Sources */,
+				48AEF9AB25A4F563001A0E48 /* WebView.swift in Sources */,
 				489BED3625A11EAA003DE60C /* HitData.swift in Sources */,
 				489BED0725A11C06003DE60C /* ContentView.swift in Sources */,
 				489BED0525A11C06003DE60C /* WypokApp.swift in Sources */,
