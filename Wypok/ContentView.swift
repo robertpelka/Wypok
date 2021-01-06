@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(networkManager.hits) { hit in
-                NavigationLink(destination: DetailView(url: hit.source_url)) {
+                NavigationLink(destination: DetailView(urlString: hit.source_url)) {
                     HStack(alignment: .top) {
                         VStack {
                             if let imgURL = hit.preview, let url = URL(string: imgURL) {
