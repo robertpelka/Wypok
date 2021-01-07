@@ -37,4 +37,8 @@ struct WebView: UIViewRepresentable {
     func goForward() {
         webView.goForward()
     }
+    
+    func reload() {
+        webView.reload()
+    }
 }

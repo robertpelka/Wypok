@@ -30,10 +30,29 @@ struct DetailView: View {
                             Image(systemName: "chevron.forward")
                                 .padding()
                         }
+                        Button {
+                            actionSheet()
+                        } label: {
+                            Image(systemName: "square.and.arrow.up")
+                                .padding()
+                        }
+                        Button {
+                            webView.reload()
+                        } label: {
+                            Image(systemName: "arrow.clockwise")
+                                .padding()
+                        }
                     }
                 }
             }
     }
+    
+    func actionSheet() {
+        guard let data = URL(string: urlString) else { return }
+        let activityView = UIActivityViewController(activityItems: [data], applicationActivities: nil)
+        UIApplication.shared.windows.first?.rootViewController?.present(activityView, animated: true, completion: nil)
+    }
+    
 }
 
 struct DetailView_Previews: PreviewProvider {
