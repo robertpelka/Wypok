@@ -17,7 +17,7 @@ struct DetailView: View {
             .navigationBarTitle(URL(string: urlString)?.host ?? "Source", displayMode: .inline)
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
-                    HStack {
+                    HStack(spacing: 40) {
                         Button {
                             webView.goBack()
                         } label: {
