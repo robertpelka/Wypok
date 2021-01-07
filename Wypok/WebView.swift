@@ -12,9 +12,15 @@ import SwiftUI
 struct WebView: UIViewRepresentable {
     
     let urlString: String
+    let webView: WKWebView
+    
+    init(urlString: String) {
+        self.urlString = urlString
+        self.webView = WKWebView()
+    }
     
     func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
+        return webView
     }
     
     func updateUIView(_ uiView: WKWebView, context: Context) {
@@ -24,4 +30,11 @@ struct WebView: UIViewRepresentable {
         }
     }
     
+    func goBack() {
+        webView.goBack()
+    }
+    
+    func goForward() {
+        webView.goForward()
+    }
 }

@@ -12,8 +12,27 @@ struct DetailView: View {
     let urlString: String
     
     var body: some View {
-        WebView(urlString: urlString)
+        let webView = WebView(urlString: urlString)
+        webView
             .navigationBarTitle(URL(string: urlString)?.host ?? "Source", displayMode: .inline)
+            .toolbar {
+                ToolbarItem(placement: .bottomBar) {
+                    HStack {
+                        Button {
+                            webView.goBack()
+                        } label: {
+                            Image(systemName: "chevron.backward")
+                                .padding()
+                        }
+                        Button {
+                            webView.goForward()
+                        } label: {
+                            Image(systemName: "chevron.forward")
+                                .padding()
+                        }
+                    }
+                }
+            }
     }
 }
 
